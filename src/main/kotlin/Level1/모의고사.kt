@@ -10,7 +10,7 @@ class 모의고사 {
 
         val supoList = listOf(a,b,c)
 
-        val max = supoList.max()
+        val max = supoList.maxOrNull()
 
         var zz = intArrayOf()
 
